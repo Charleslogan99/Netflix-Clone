@@ -1,0 +1,20 @@
+ body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    height: 100vh;
+    max-width: 100%;
+    color: #fff;
+    
+ 
+}
+
+.header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.1)) , url('./img/image\ 1.png');
+    
+}
+
+.section-4{
+    align-items: center;
+}
