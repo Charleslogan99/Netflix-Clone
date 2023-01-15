@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #000;
+    color: #fff;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)) , url('./img/sign-in\ logo.png');
+
+    
+}
+.header{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 10px 0; */
+    padding: 10px 10%;
+
+}
+
+.logo{
+    width: 150px;
+    cursor: pointer;
+}
+
+form {
+    max-width:450px;
+    max-height: 660px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 1rem 1.5rem;
+    position: relative;
+    margin: 3rem auto;
+    
+}
+
+form h2 {
+    font-size: 1.6rem;
+    margin: .5rem 0;
+    margin-top: 1rem;
+    text-transform: capitalize;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40.86px;
+    text-align: start;
+}
+
+.cancel-btn {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    background-color: transparent;
+    font-size: 1rem;
+    color: #555;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.form-group {
+    margin: 1rem 0;
+    margin-top: 43px;
+}
+.form-group-password{
+    margin: 1rem 0;
+    margin-top: 16px;
+}
+.form-group label {
+    font-size: .9rem;
+    color: #555;
+    margin-bottom: .3rem;
+    font-family: Poppins;
+    font-weight: 400;
+}
+.form-group input{
+    background: #444;
+    color: #999;
+    border: none;
+}
+.form-group-password input{
+    background: #444;
+    color: #999;
+    border: none;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: .5rem 1rem;
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: .9rem;
+    color: #555;
+}
+
+.form-control:focus {
+    outline: none;
+}
+
+form p {
+    margin: .5rem 0;
+}
+
+.form-link {
+    color: var(--lightblue);
+    font-family: Poppins;
+    font-size: .85rem;
+}
+
+.form-btn {
+    display: block;
+    width: 100%;
+    padding: .8rem;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    color: #fff;
+    margin-top: 40px;
+    background: #E50914;
+    border: none;
+    margin-bottom: 13px;
+
+}
+
+.signup {
+    text-align: start;
+    color: #737373;
+    font-family: Poppins;
+    font-size: 15px;
+    line-height: 13px;
+    font-weight: 500;
+    margin-top: 57px;
+}
+
+.message {
+    display: flex;
+    justify-content: space-between;
+    /* text-align: center;
+    font-size: .85rem;
+    font-family: Poppins;
+    padding: .8rem 0;
+    margin-top: 1rem; */
+}
+.message .message-first-paragraph{
+    margin-left: 18px;
+}
+.success {
+    background-color: rgba(26, 165, 26, 0.35);
+    color: #fff;
+}
+
+.danger {
+    background-color: rgba(247, 60, 60, 0.45);
+    color: #fff;
+}
+
+.facebook-tip{
+    margin-top: 57px;
+    display: flex; 
+     flex-direction: row;
+   height: 100%;
+   justify-content: space-evenly;
+
+}
+.facebook-tip-img{
+  width: 5%;
+height: 100%;
+margin: auto;
+
+
+
+}
+.facebook-tip img{
+    width: 25px;
+    height: 25px;
+    float: left; 
+   align-items: center;
+    
+    
+    
+}
+.signup{
+    width: 95%;
+    text-align: center;
+    height: 100%;
+    margin: auto;
+
+}
+.facebook-tip p{
+    float: left;
+    padding-left: 20px;
+
+}
+.signup-paragraph{
+    color: #737373;
+
+}
+
+.signup-paragraph strong{
+    font-weight:bolder;
+    color: #fff;
+}
+
+.note{
+    margin-top: 14px;
+    color: #737373;
+    margin-bottom: 143px;
+}
+.note a{
+    text-decoration: none;
+    color: rgba(0, 157, 255, 0.556);
+}
+.footer{
+    margin-top: 30px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 0px;
+    color: #fff;
+    width: 100%;
+    position: absolute;
+    padding: 50px 5% 10px;
+
+}
+
+    .footer h2{
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+    .footer .col{
+        flex-basis: 25%;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        margin-bottom: 20px;
+    }
+    .footer .col a{
+        /* display: block; */
+        /* display: flex; */
+        text-decoration: none;
+        color: #777;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .footer .row{
+        align-items: flex-start;
+        padding: 10px 0;
+    }
+    .footer .language-btn{
+        border: 1px solid #333;
+        background: transparent;
+        color: #999999;
+        padding: 10px 20px;
+        border-radius: 3px;
+    }
+    .copyright-text{
+        font-size: 14px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    
+
+   

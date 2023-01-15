@@ -15,7 +15,7 @@ body{
     height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)) , url('./img/image\ 1.png');
     background-size: cover;
-    background-position: center;
+    background-repeat: no-repeat;
     padding: 10px 8%;
 }
 
@@ -41,6 +41,14 @@ nav button{
     margin-left: 10px;
     cursor: pointer;
 }
+nav button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* nav button a::after{
+color: #fff;
+} */
 
 .language-btn{
     display: inline-flex;
@@ -247,11 +255,11 @@ color: #777;
     nav .language-btn{
         padding: 4px 8px;
     }
-    .header-content{
+    /* .header-content{
         position: unset;
         transform: none;
         padding-top: 150px;
-    }
+    } */
     .header-content h1{
         font-size: 30px;
     }
